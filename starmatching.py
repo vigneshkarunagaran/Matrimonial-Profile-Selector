@@ -17,8 +17,8 @@ webdriver.get('http://bhuvaneshwarimatrimony.com/')
 sleep(3)
 
 #User name password
-webdriver.find_element_by_xpath('//*[@id="MainContent_UserLogin_UserName"]').send_keys('MF3691')
-webdriver.find_element_by_xpath('//*[@id="MainContent_UserLogin_Password"]').send_keys('karuna')
+webdriver.find_element_by_xpath('//*[@id="MainContent_UserLogin_UserName"]').send_keys('username')
+webdriver.find_element_by_xpath('//*[@id="MainContent_UserLogin_Password"]').send_keys('password')
 sleep(2)
 
 #click on login
